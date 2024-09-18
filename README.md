@@ -12,6 +12,7 @@ GoStore (ProjectDFS) is a simple Distributed File System (DFS) written in Go, ut
 - **Efficient Naming Server**: A single naming server handles file indexing and directs clients to the appropriate storage servers.
 
 ## Architecture
+![image](https://github.com/user-attachments/assets/4c1cd3e4-cf25-4761-a43d-1bb2429938b2)
 
 ### Client
 The client interacts with users through **FUSE**, allowing the file system to be mounted and used with traditional tools (e.g., Neovim). FUSE provides an abstraction layer that allows users to work with remote files without changing their usual workflows. 
